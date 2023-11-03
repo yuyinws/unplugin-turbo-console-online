@@ -8,7 +8,9 @@ import TurboConsole from 'vite-plugin-turbo-console'
 export default defineConfig({
   plugins: [
     vue(),
-    TurboConsole()
+    TurboConsole({
+      disableLaunchEditor: false
+    })
   ],
   resolve: {
     alias: {

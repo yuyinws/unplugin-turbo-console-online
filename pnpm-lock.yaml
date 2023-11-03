@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^4.4.11
     version: 4.5.0(@types/node@18.18.8)
   vite-plugin-turbo-console:
-    specifier: 0.2.0-beta.7
-    version: 0.2.0-beta.7(vite@4.5.0)
+    specifier: '*'
+    version: 0.2.5(vite@4.5.0)
   vue-tsc:
     specifier: ^1.8.19
     version: 1.8.22(typescript@5.2.2)
@@ -828,10 +828,14 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-turbo-console@0.2.0-beta.7(vite@4.5.0):
-    resolution: {integrity: sha512-4jYlurOtPldQxn5qqDbXU+yDF5WcmIACzXbLmoi+ql3WZmyCZauh2uad0amFRXELt4sHFc2Ugcg9xCOfGJ93Xw==}
+  /vite-plugin-turbo-console@0.2.5(vite@4.5.0):
+    resolution: {integrity: sha512-hW0Sno+YQWgMRHrG3VBEaf45sqRK1//EIGsXdlCRpVWFuJRM2vIh3JCGhqbyCEqpo2DcHt5b+SE/vTs04jSG/Q==}
     peerDependencies:
-      vite: ^4.0.0 || ^3.0.0
+      '@nuxt/kit': '*'
+      vite: ^4.0.0 || ^3.0.0 || ^5.0.0-0
+    peerDependenciesMeta:
+      '@nuxt/kit':
+        optional: true
     dependencies:
       acorn-walk: 8.3.0
       magic-string: 0.30.5

@@ -6,7 +6,6 @@ function logvue() {
   console.log(message)
 }
 
-console.log('123')
 </script>
 
 <template>
@@ -17,6 +16,9 @@ console.log('123')
       <button @click="logts">Print TypeScript</button>
       <button @click="logjs">Print JavaScript</button>
       <button @click="logvue">Print Vue</button>
+    </div>
+    <div style="margin-top: 15px;">
+      Ops! <strong style="font-weight: 600;">launch editor</strong> feature is not supported on StackBlitz yet :(
     </div>
   </main>
 </template>
