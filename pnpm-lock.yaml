@@ -29,8 +29,8 @@ devDependencies:
     specifier: ~5.2.0
     version: 5.2.2
   unplugin-turbo-console:
-    specifier: 1.0.1
-    version: 1.0.1(vite@5.0.0)(vue@3.3.7)
+    specifier: 1.0.3
+    version: 1.0.3(vite@5.0.0)(vue@3.3.7)
   vite:
     specifier: ^5.0.0
     version: 5.0.0(@types/node@18.18.8)
@@ -77,12 +77,12 @@ packages:
     dependencies:
       '@babel/types': 7.23.0
 
-  /@babel/parser@7.23.4:
-    resolution: {integrity: sha512-vf3Xna6UEprW+7t6EtOmFpHNAuxw3xqPZghy+brsnusscJRW5BMUzzHZc5ICjULee81WeUV2jjakG09MDglJXQ==}
+  /@babel/parser@7.23.5:
+    resolution: {integrity: sha512-hOOqoiNXrmGdFbhgCzu6GiURxUgM27Xwd/aPuu8RfHEZPBzL1Z54okAHAQjXfcQNwvrlkAmAp4SlRTZ45vlthQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.23.4
+      '@babel/types': 7.23.5
     dev: true
 
   /@babel/types@7.23.0:
@@ -93,8 +93,8 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
 
-  /@babel/types@7.23.4:
-    resolution: {integrity: sha512-7uIFwVYpoplT5jp/kVv6EF93VaJ8H+Yn5IczYiaAi98ajzjfoZfslet/e0sLh+wVBjb2qqIut1b0S26VSafsSQ==}
+  /@babel/types@7.23.5:
+    resolution: {integrity: sha512-ON5kSOJwVO6xXVRTvOI0eOnWe7VdUcIpsovGo9U/Br4Ie4UVFQTboO2cYnDhAGU6Fp+UxSiT+pMft0SMHfuq6w==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-string-parser': 7.23.4
@@ -302,20 +302,6 @@ packages:
 
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
-
-  /@rollup/pluginutils@5.0.5:
-    resolution: {integrity: sha512-6aEYR910NyP73oHiJglti74iRyOwgFU4x3meH/H8OJx6Ry0j6cOVZ5X/wTvub7G7Ao6qaHBEaNsV3GLJkSsF+Q==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
-    peerDependenciesMeta:
-      rollup:
-        optional: true
-    dependencies:
-      '@types/estree': 1.0.5
-      estree-walker: 2.0.2
-      picomatch: 2.3.1
-    dev: true
 
   /@rollup/pluginutils@5.1.0:
     resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
@@ -601,8 +587,8 @@ packages:
     resolution: {integrity: sha512-Q0DjXK4ApbVoIf9GLyCo252tUH44iTnD/hiJ2TQaJeydYWSpKk0sI34+WMel8S9Wt5pbLgG02oJ+gkgX5DV3sQ==}
     engines: {node: '>=16.14.0'}
     dependencies:
-      '@babel/parser': 7.23.4
-      '@rollup/pluginutils': 5.0.5
+      '@babel/parser': 7.23.5
+      '@rollup/pluginutils': 5.1.0
       pathe: 1.1.1
     transitivePeerDependencies:
       - rollup
@@ -1278,11 +1264,12 @@ packages:
       pathe: 1.1.1
     dev: true
 
-  /unplugin-turbo-console@1.0.1(vite@5.0.0)(vue@3.3.7):
-    resolution: {integrity: sha512-+6hDqxceUjOqdwLp14vmbJoTxlZA728RI8zspj/HUJMYTVAx4l+Gg0X5nxilX6OTIY79O4/37p/khDVFHqqdEQ==}
+  /unplugin-turbo-console@1.0.3(vite@5.0.0)(vue@3.3.7):
+    resolution: {integrity: sha512-8lYZb66VPCuwWX2XH4k1JBnjwvKAD4SVXaQfWtWzz8Yii3mWp8BLGwNXzHbTL044vJvFAHvVUpk0X1tennVrWw==}
     peerDependencies:
       '@nuxt/kit': ^3
       '@nuxt/schema': ^3
+      astro: ^3
       esbuild: '*'
       rollup: ^3
       vite: '>=3'
@@ -1292,6 +1279,8 @@ packages:
       '@nuxt/kit':
         optional: true
       '@nuxt/schema':
+        optional: true
+      astro:
         optional: true
       esbuild:
         optional: true
