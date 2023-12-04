@@ -29,8 +29,8 @@ devDependencies:
     specifier: ~5.2.0
     version: 5.2.2
   unplugin-turbo-console:
-    specifier: 1.0.3
-    version: 1.0.3(vite@5.0.0)(vue@3.3.7)
+    specifier: 1.0.4
+    version: 1.0.4(vite@5.0.0)(vue@3.3.7)
   vite:
     specifier: ^5.0.0
     version: 5.0.0(@types/node@18.18.8)
@@ -1264,8 +1264,8 @@ packages:
       pathe: 1.1.1
     dev: true
 
-  /unplugin-turbo-console@1.0.3(vite@5.0.0)(vue@3.3.7):
-    resolution: {integrity: sha512-8lYZb66VPCuwWX2XH4k1JBnjwvKAD4SVXaQfWtWzz8Yii3mWp8BLGwNXzHbTL044vJvFAHvVUpk0X1tennVrWw==}
+  /unplugin-turbo-console@1.0.4(vite@5.0.0)(vue@3.3.7):
+    resolution: {integrity: sha512-PB5R5rzaQ6rtGvQnRhD2Tr3z7Xl0IXQK33y9mBDmY/JfSIqEb36f+MsI/Ih/QEdBrOUumuR/Jqh/8k4DglkQWQ==}
     peerDependencies:
       '@nuxt/kit': ^3
       '@nuxt/schema': ^3

@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [
     vue(),
     TurboConsole({
-      disableLaunchEditor: true
+      disableLaunchEditor: false
     })
   ],
   resolve: {
