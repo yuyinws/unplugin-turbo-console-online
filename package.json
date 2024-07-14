@@ -11,18 +11,18 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {
-    "vue": "^3.3.4"
+    "vue": "^3.4.31"
   },
   "devDependencies": {
-    "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^18.18.5",
-    "@vitejs/plugin-vue": "^4.4.0",
-    "@vue/tsconfig": "^0.4.0",
-    "npm-run-all2": "^6.1.1",
-    "typescript": "~5.2.0",
-    "unplugin-turbo-console": "1.0.4",
-    "vite": "^5.0.0",
-    "vue-tsc": "^1.8.19"
+    "@tsconfig/node18": "^18.2.4",
+    "@types/node": "^20.14.10",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/tsconfig": "^0.5.1",
+    "npm-run-all2": "^6.2.2",
+    "typescript": "~5.5.3",
+    "unplugin-turbo-console": "1.9.3",
+    "vite": "^5.3.3",
+    "vue-tsc": "^2.0.26"
   },
   "stackblitz": {
     "startCommand": "pnpm update unplugin-turbo-console@latest && pnpm dev"
