@@ -11,6 +11,8 @@ export default defineConfig({
     TurboConsole({
       disableLaunchEditor: true,
       passServerLogs: false,
+      prefix: '👇👇👇',
+      suffix: '👆👆👆'
     })
   ],
   resolve: {
