@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     TurboConsole({
       disableLaunchEditor: true,
-      passServerLogs: false,
+      disablePassLogs: true,
       prefix: '👇👇👇',
       suffix: '👆👆👆'
     })
