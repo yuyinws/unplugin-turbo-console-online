@@ -18,7 +18,7 @@ function logvue() {
       <button @click="logvue">Print Vue</button>
     </div>
     <div style="margin-top: 15px;">
-      Ops! <strong style="font-weight: 600;">launch editor</strong> feature is not supported on StackBlitz yet :(
+      Ops! <strong style="font-weight: 600;">Launch Editor & Inspector</strong> feature is not supported on StackBlitz yet :(
     </div>
   </main>
 </template>

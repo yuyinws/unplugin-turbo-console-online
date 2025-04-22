@@ -9,10 +9,9 @@ export default defineConfig({
   plugins: [
     vue(),
     TurboConsole({
-      disableLaunchEditor: true,
-      disablePassLogs: true,
       prefix: '👇👇👇',
-      suffix: '👆👆👆'
+      suffix: '👆👆👆',
+      inspector: false,
     })
   ],
   resolve: {
